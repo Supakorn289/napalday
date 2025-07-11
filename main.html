@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="birthdayPopup" class="popup">
+        <div class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <h2>"สุขสันต์วันเกิดเนปาลเพื่อนรัก"</h2>
+        </div>
+    </div>
+
+    <div class="slider-container">
+        <div class="slider-images">
+            <img src="/image/รูป3.jpg" alt="Birthday Image 1">
+            <img src="/image/รูป2.jpg" alt="Birthday Image 2">
+            <img src="/image/รูป1.jpg" alt="Birthday Image 3">
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+<br>
+    <div class="birthday-message">
+        <p>กูขอให้ปีนี้เป็นปีที่ดีของมึง <br> ไม่ว่าจะเรื่องเรียน เรื่องงาน ทุกๆเรื่องกูจะเป็นกำลังใจให้มึงเสมอ</p>
+        <p>สุขสันต์วันเกิด!</p>
+        <p>ปล.เว็บกูเป็นไงเจ๋งปะหล่ะ5555</p>
+    </div>
+
+    <button class="cake-button" onclick="window.location.href='birthdaycake.html'">กด<br>เพื่อดูเค้กวันเกิด</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
